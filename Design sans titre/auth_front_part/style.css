@@ -1,0 +1,287 @@
+/*-----------------body---------------*/
+ body 
+ {
+    --color-primary: #000000;
+    --color-secondary: #ffffff;
+    --color-tertiary: #ffeee6;
+    background-color:  #353535; 
+    background-image: url('/Users/mmakboub/Desktop/ft_trans/FT_Transcendance/Design sans titre/1.png'); /* Remplacez par le chemin de votre image */
+  background-size: cover; /* Ajuste la taille de l'image pour couvrir tout l'arrière-plan */
+  background-repeat: no-repeat; /* Empêche la répétition de l'image */
+  background-attachment: fixed; /* Fixe l'image en place (en option) */
+}
+
+
+
+/*-----------------rectangle---------------*/
+.rectangle
+{
+    
+    width:550px;
+    height: 650px;
+    position: absolute;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 11px 10px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #383838;
+    display: flex;
+    transform: translateY(50%);
+    left: 20%;
+}
+
+
+
+/*-----------------carre---------------*/
+.carre 
+{
+    width:450.377px;
+    height: 550px;
+    position: absolute;
+    border-radius: 25px 25px 25px 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #646464;
+        
+}
+.carre h2 
+{
+    bottom:85%;
+    left:50%;
+    transform: translateX(-50%);
+    font-family: 'lilita one';
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--color-secondary);
+    position: absolute;
+    font-family: Lilita One;
+
+} 
+.carre p{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color: rgba(227, 227, 227, 0.3956);
+    margin-top: 20px;;
+}
+.carre button {
+    /* width: 250px;
+   height: 50px;
+   margin-top: 60px ; 
+   margin-left: 175px;
+   border: 1.5px solid white;
+   border-radius: 25px 25px 25px 25px;
+   color: white;
+   background: black;
+   font-weight: 600;
+   font-size: 17px;
+   padding: 10px 20px; 
+   cursor: pointer; */
+   color: #CD4D4D;
+   font-style: normal;
+   line-height: normal;
+   /* font-family: 'Be Vietnam Pro'; */
+   background: #383838;
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   width: 280px;
+   height: 44px;
+   margin: 7px ;
+   border: none;
+   border-radius: 10px 10px 10px 10px;
+   font-size: 17px;
+   padding: 7px 30px; 
+    margin-top: 30px;
+    margin-left: 90px;
+    /* display: flex; */
+  /* Ajoutez de la marge à droite du SVG pour créer de l'espace */
+  margin-right: 20px;
+
+} 
+
+.carre button svg
+{
+    margin-left:20px;
+    /* display: flex; */
+}
+
+/*-----------------loginpage---------------*/
+
+.loginpage
+{
+    top:20%;
+    left:17.5%;
+   position : relative;
+   margin-top: 30px;
+
+}
+
+.username svg 
+{
+    display: flex;
+    transform: translateY(50%);
+    position: absolute;
+    top: 6%;
+    left: 13px;
+}
+
+.password svg
+{
+    display: flex;
+    transform: translateY(50%);
+    position: absolute;
+    left: 11px; 
+    top: 57%;
+}
+
+input[type='text'],
+input[type='password'] 
+{
+    /* font-family: 'Be Vietnam Pro'; */
+    color: #878787;
+    font-style: normal;
+    line-height: normal;
+    background-color: #4C4C4C;
+    width: 220px;
+    height: 35px;
+    margin: 10px ;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 17px;
+    padding: 7px 30px; 
+}
+
+
+
+/*-----------------rememberoption---------------*/
+.rememberoption
+{
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;
+    margin-top: 27%;   
+}
+.rememberoption label 
+{
+    color: rgba(227, 227, 227, 0.3956);
+    margin-left: 8px; 
+}
+.rememberoption a 
+{
+    margin-left: 40px;
+    text-decoration: none;
+    color:  #D73636;
+
+}
+label input[type="checkbox"] 
+{
+    border: 1px solid  #BFBFBF;
+    background-color: #000000;
+    /* margin-right: 5px; */
+    width: 15px;
+    height: 15px;
+    vertical-align: -10.5% ; 
+    cursor: pointer;
+}
+label input[type="checkbox"]:checked 
+{
+    filter: grayscale(1); 
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+
+/* .signin{
+    display: flex;
+    justify-content: center; /* Centre horizontalement 
+    align-items: center;
+    margin-top: 60px;
+    margin-right: 100px;
+gap: 45.201px;
+} */
+
+
+
+    
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* .signup-link {
+    margin-left: 20px; /* Adjust the margin as needed 
+    text-decoration: none;
+    color:#D73636;
+}
+
+.signupform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .signupform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    width: 60%;
+    height: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .signupform button {
+    width: 250px;
+    height: 50px;
+    margin-top: 60px ; 
+    border: 1.5px solid white;
+    border-radius: 25px 25px 25px 25px;
+    color: white;
+    background: black;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 10px 20px; 
+    cursor: pointer;
+    margin-top: 80%;
+
+  }
+  .signupform h2 {
+    bottom:85%;
+    left:50%;
+    text-align: center;
+    transform: translateX(-50%);
+    font-family: 'lilita one';
+    font-size: 30px;
+    font-weight: 600px;
+    color: var(--color-secondary);
+    position: absolute;
+    font-family: Lilita One;
+
+  }
+
+  .signupform p {
+  
+    font-family: 'lilita one';
+    font-size: 20px;
+    color: #E3E3E3B2;
+    position: absolute;
+    margin-bottom: 20%;
+    left:10%;
+    display: flex;
+    text-align: center;
+  }
+  .accountsoption h4{
+    display: flex;
+    justify-content: center; /* Centre horizontalement 
+    align-items: center;
+    font-family: Lilita One;
+    color: rgba(227, 227, 227, 0.3956);
+    margin-top: 100px;
+
+} */
